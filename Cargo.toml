@@ -4,11 +4,12 @@ version = "0.1.0"
 edition = "2024"
 authors = ["ricky.nj@gmail.com"]
 description = "Lightweight Rust FFI bindings to libsnark’s Groth16 prover and verifier"
-license = "MPL-2.0"
+license = "MPL-2.0 OR MIT"
 repository = "https://github.com/block-xaero/libsnark-rs"
 readme = "README.md"
-keywords = ["DID", "identity", "decentralized", "zero-knowledge", "privacy"]
-categories = ["cryptography", "authentication"]
+keywords = ["zero-knowledge", "privacy"]
+categories = ["cryptography"]
+
 
 
 [build-dependencies]
