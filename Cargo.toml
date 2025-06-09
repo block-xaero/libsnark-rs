@@ -1,0 +1,18 @@
+[package]
+name = "libsnark-rs"
+version = "0.1.0"
+edition = "2024"
+authors = ["ricky.nj@gmail.com"]
+description = "Lightweight Rust FFI bindings to libsnark’s Groth16 prover and verifier"
+license = "MPL-2.0"
+repository = "https://github.com/block-xaero/libsnark-rs"
+readme = "README.md"
+keywords = ["DID", "identity", "decentralized", "zero-knowledge", "privacy"]
+categories = ["cryptography", "authentication"]
+
+
+[build-dependencies]
+cc = "1.2.26"
+
+[dependencies]
+# no pure-Rust crypto dependencies here — all C++ lives behind ffi
